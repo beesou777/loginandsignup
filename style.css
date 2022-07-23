@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif;
+
+}
+.con{
+    background: #2F303A;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    float: inline-end;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    
+}
+.container{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    max-width: 100%;
+    
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 2rem;
+    margin-right:2rem;
+  
+}
+img{
+   height: 450px;
+   position: relative;
+   top: 90px;
+   left: 10%;
+  
+  
+}
+.writing{
+    margin-left: 25vh;
+
+
+    
+}
+.writing h1{
+    color: #fff;
+    font-size: 40px;
+  
+}
+.writing p{
+    line-height: 2rem;
+    color: #fff;
+    font-size: 20px;
+}
+.writing button{
+   padding: 6px 20px;
+   background:#1762A7;
+   border: none;
+   border-radius: 3px;
+   outline: none;
+   color: #fff;
+   font-size: 1.5rem;
+   margin-top: 2rem;
+   cursor: pointer;
+}
+.first-color{
+    height: 50px;
+    width: 50px;
+   background:#1762A7;
+   opacity: 30%;
+   border-radius: 100%;
+   position: relative;
+   top: 20%;
+
+}
+.second-color{
+    height: 120px;
+    width: 120px;
+   background:#1762A7;
+   opacity: 30%;
+   border-radius: 100%;
+   position: relative;
+   top: 10%;
+   left: 50%;
+}
+.content{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.content .para{
+    color: #fff;
+    font-size: 3rem;
+    margin-left: 7rem;
+}
+span{
+    color: orangered;
+}
+form{
+    display: grid;
+    width: 330px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 990px;
+    background:#334;
+}
+label{
+    color: #fff;
+    font-size: 25px;
+}
+.inp{
+    background: transparent;
+    color: #fff;
+    font-size: larger;
+    max-width: 320px;
+}
+.btn{
+    background: #192de6;
+    width: 80%;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.btns{
+    background: #18a73c;
+    width: 80%;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.forgot{
+    color: #fff;
+    margin-top: 1.5rem;
+    font-size: 1.5em;
+}
+.web{
+    margin-left: 3rem;
+}
+.web2{
+    text-align: center;
+}
+.free{
+    text-align: center;
+}
